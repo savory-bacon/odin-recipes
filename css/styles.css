@@ -1,8 +1,17 @@
 /* Styles to make my recipe website look a little more pleasing to the eye :) */
 
-.recipe_title {
+body {
+    background-color: rgb(235, 230, 218);
+}
+
+#page_title, .recipe_title {
     border-bottom-style: double;
     border-bottom-width: 5px;
+}
+
+#recipes_list {
+    font-size: large;
+    line-height: 150%;
 }
 
 .description_title, .ingredients_title {
@@ -10,4 +19,12 @@
     border-top-width: 5px;
     border-bottom-style: double;
     border-bottom-width: 5px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    padding: 4px;
+    background-color: rgb(200, 195, 182);
 }
