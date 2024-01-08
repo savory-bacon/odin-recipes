@@ -1,0 +1,13 @@
+/* Styles to make my recipe website look a little more pleasing to the eye :) */
+
+.recipe_title {
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+}
+
+.description_title, .ingredients_title {
+    border-top-style: double;
+    border-top-width: 5px;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+}
